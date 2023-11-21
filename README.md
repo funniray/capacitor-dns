@@ -1,6 +1,6 @@
 # capacitor-dns
 
-Capacitor plugin which polyfills node:dns
+Capacitor plugin which attempts to polyfill node:dns
 
 ## Install
 
@@ -9,11 +9,5 @@ npm install capacitor-dns
 npx cap sync
 ```
 
-## API
-
-<docgen-index></docgen-index>
-
-<docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
-</docgen-api>
+## Currently implemented methods
+- [lookup](https://nodejs.org/api/dns.html#dnslookuphostname-options-callback)

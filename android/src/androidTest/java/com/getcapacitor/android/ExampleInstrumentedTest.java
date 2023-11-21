@@ -8,6 +8,9 @@ import androidx.test.platform.app.InstrumentationRegistry;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import java.net.InetAddress;
+import java.net.UnknownHostException;
+
 /**
  * Instrumented test, which will execute on an Android device.
  *

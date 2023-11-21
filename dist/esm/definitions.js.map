@@ -1,0 +1,1 @@
+{"version":3,"file":"definitions.js","sourceRoot":"","sources":["../../src/definitions.ts"],"names":[],"mappings":"","sourcesContent":["export type Address = {\n  address: string,\n  family: 4 | 6\n}\n\nexport interface CapacitorDNSNativePlugin {\n  lookup(options: { hostname: string }): Promise<{ addresses: Address[] }>;\n}\n"]}
